@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import {assets} from "../assets/assets.js"
 import { useNavigate } from 'react-router-dom'
-import { Appcontent } from '../context/appContext.jsx';
+import { Appcontent } from '../context/AppContext.jsx';
 import { toast } from 'react-toastify';
 import axios from 'axios';
 const Navbar = () => {
